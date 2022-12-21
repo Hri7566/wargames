@@ -7,7 +7,7 @@ let socket;
 const start = () => {
     try {
         socket = net.createConnection({
-            port: 40000,
+            port: 40500,
             host: process.argv[2] || '127.0.0.1'
         });
     } catch (err) {
